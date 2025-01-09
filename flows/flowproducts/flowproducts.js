@@ -1,7 +1,7 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 const productsList = require("../../constanst/products")
 
-const MainProductsMain = addKeyword("Ver_Lista")
+const MainProductsMain = addKeyword("VER_PRODUCTOS")
     .addAnswer("Aqui te mostramos la lista de nuestros productos:")
     .addAnswer(productsList)
     .addAnswer('Si desea regresar escriba "salir"',

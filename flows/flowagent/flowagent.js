@@ -1,5 +1,5 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
-const MainAgentFlow = addKeyword("Ver_Lista")
+const MainAgentFlow = addKeyword("VER_AGENTE")
     .addAnswer("En un momento le atenderemos...")
     .addAnswer('Si desea regresar escriba "salir"',
         {
